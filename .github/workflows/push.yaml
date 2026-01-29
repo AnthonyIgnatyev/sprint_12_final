@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.10.0
         with:
-          images: antuanignatyev/sprint-12-final
+          images: antuanignatyev/sprint_12_final
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v6.18.0 
